@@ -16,7 +16,7 @@
   "dependencies": {
     "cids": "^0.7.1",
     "ipfs-css": "^0.13.1",
-    "multibase": "^0.6.0",
+    "multibase": "^0.7.0",
     "multicodec": "^0.5.5",
     "multihashes": "^0.4.15",
     "parcel-bundler": "^1.12.3",

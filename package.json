@@ -8,7 +8,9 @@
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url '.'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "ipfs add -r --cid-version 1 --quieter dist"
+    "deploy": "ipfs add -r --cid-version 1 --quieter dist",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [],
   "author": "Victor Bjelkholm",
@@ -21,6 +23,8 @@
     "multihashes": "^0.4.15",
     "parcel-bundler": "^1.12.3",
     "tachyons": "^4.11.1",
-    "varint": "^5.0.0"
-  }
+    "varint": "^5.0.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
